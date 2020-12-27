@@ -1,0 +1,30 @@
+## Write a program in C++ to print a welcome text in a separate line
+
+### Program in C++ :
+
+```C+
+#include <iostream>
+
+using namespace std;
+
+int main()
+{
+    cout<<"\n\n\t\t Welcome to ";
+    cout<<"\n\t\t Code 4 u";
+    
+    return 0;
+}
+```
+
+### Program in C :
+
+```C
+#include <stdio.h>
+
+int main()
+{
+    printf("\n\n\t\t Welcome to \n\t\t Coad 4 U");
+    
+    return 0;
+}
+```
