@@ -1,0 +1,39 @@
+## Write a program in C++ to print the sum of two numbers.
+Sample Output:
+Print the sum of two numbers :
+-----------------------------------
+The sum of 29 and 30 is : 59
+
+### Program in C++ :
+
+```C+
+#include <iostream>
+
+using namespace std;
+
+int main()
+{
+    int num1=29, num2=30;
+    int sum = num1 + num2;
+    
+    cout<<"The Sum of "<<num1<<" and "<<num2<<" is : "<<sum<<endl;
+    
+    return 0;
+}
+```
+
+### Program in C:
+
+```C
+#include <stdio.h>
+
+int main()
+{
+    int num1=29,num2=30;
+    int sum = num1 + num2;
+    
+    printf("The sum of %d and %d is : %d",num1,num2,sum);
+    
+    return 0;
+}
+```
